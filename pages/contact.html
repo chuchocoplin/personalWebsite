@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <h2>Contact Me</h2>
+    <ul>
+        <li>Name: Chucho Coplin</li>
+        <li>Phone: myNum</li>
+        <li>Email: myEmail</li>
+        <hr>
+        <!--  There are mamy input types use MDN to search them up-->
+        <form action="mailto:someemail@emaildomain.tld" method="POST" enctype="text/plain">
+            <label for="name" >Your Name: </label>
+            <input type="text" name="uName">
+            <br>
+            <label for="email">Your Email: </label>
+            <input type="email" name="uEmail">
+            <br>
+            <label for="message">Your Message:</label>
+            <br>
+            <textarea name="umsg" id="msgOfUser" cols="27" rows="7"></textarea>
+            <br>
+            <input type="submit">
+        </form>
+    </ul>
+    
+</body>
+</html>
